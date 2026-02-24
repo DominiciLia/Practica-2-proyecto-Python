@@ -151,6 +151,18 @@ files = [
 all = ["flake8 (>=7.1.1)", "mypy (>=1.11.2)", "pytest (>=8.3.2)", "ruff (>=0.6.2)"]
 
 [[package]]
+name = "random2"
+version = "1.0.2"
+description = "Python 3 compatible Python 2 `random` Module."
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "random2-1.0.2-py3-none-any.whl", hash = "sha256:c2b92ac9d28f94d3759075302c12f94e3dcc09f2d1c9e9f65fdbbb1d6b710024"},
+    {file = "random2-1.0.2.tar.gz", hash = "sha256:3754fcef48267567cd5705fa7da6bbc3809cb3f808740313e6705acc3c057e77"},
+]
+
+[[package]]
 name = "requests"
 version = "2.32.5"
 description = "Python HTTP for Humans."
@@ -193,4 +205,4 @@ zstd = ["backports-zstd (>=1.0.0) ; python_version < \"3.14\""]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.14"
-content-hash = "3196b6bb2ca9217bf5cebc92c678654eaeb3e5bee55bb937a4312016c47df90d"
+content-hash = "8623b731f1975ce77e35c2a53735d0c0e51ed70a0e6e9d720acd4401aef35f7c"
