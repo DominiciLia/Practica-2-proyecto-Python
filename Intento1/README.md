@@ -3,7 +3,7 @@
 ## Descripción
 Este proyecto fue desarrollado como práctica de configuración de entorno de desarrollo en Python utilizando Poetry para la gestión de dependencias.
 
-El programa realiza una consulta a la API de GitHub usando la librería requests.
+El programa da frases motivacionales usando la libreria random2
 
 ## Versión de Python
 Python 3.14.3
